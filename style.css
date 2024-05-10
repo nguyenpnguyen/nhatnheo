@@ -1,0 +1,73 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Title styles */
+#title {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* GIF container styles */
+#gif-container {
+  margin-bottom: 20px;
+}
+
+#gif {
+  max-width: 20rem;
+}
+
+/* Button container styles */
+#btn-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Yes button styles */
+#yes {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* No button styles */
+#no {
+  background-color: #f44336;
+  color: #fff;
+}
